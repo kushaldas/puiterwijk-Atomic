@@ -3,6 +3,10 @@ export LANG=en_US.UTF-8
 CONFIGDIR="/srv/rpm-ostree/config"
 set -x
 
+# We want updated git repo
+cd $CONFIGDIR
+git pull
+
 # Needs to be fully updated since the release data won't work with rpm-ostree
 dnf update -y
 
