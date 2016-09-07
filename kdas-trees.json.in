@@ -84,7 +84,7 @@
 		 "oci-systemd-hook",
 		 "mdadm",
 		 "runc",
-                 "vim-enhanced","pss"],
+                 "vim-enhanced","pss","htop"],
     "default_target": "multi-user.target",
     "units": ["docker.service", "cockpit.socket", "docker-storage-setup.service", "systemd-timesyncd.service"]
 }
