@@ -1,4 +1,5 @@
-me=Fedora $releasever - $basearch
+[fedora]
+name=Fedora $releasever - $basearch
 failovermethod=priority
 baseurl=http://fedora.mirrors.ovh.net/linux/releases/24/Everything/$basearch/os/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
